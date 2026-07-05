@@ -237,8 +237,18 @@ export const SecurityGate: React.FC<SecurityGateProps> = ({
                         Room {r.roomNumber}
                       </span>
                     </div>
-                    <span className={`badge badge-${r.status}`} style={{ fontSize: '0.65rem', padding: '0.15rem 0.4rem' }}>
-                      {r.status === 'approved' ? 'Approved' : 'Checked Out'}
+                    <span 
+                      className={`badge badge-${r.status}`} 
+                      style={{ 
+                        fontSize: '0.65rem', 
+                        padding: '0.15rem 0.4rem',
+                        background: r.status === 'checked_out' && new Date(r.endDate) < new Date() ? 'rgba(239, 68, 68, 0.15)' : '',
+                        color: r.status === 'checked_out' && new Date(r.endDate) < new Date() ? '#f87171' : '',
+                        borderColor: r.status === 'checked_out' && new Date(r.endDate) < new Date() ? 'rgba(239, 68, 68, 0.3)' : ''
+                      }}
+                    >
+                      {r.status === 'approved' ? 'Approved' : 
+                       r.status === 'checked_out' && new Date(r.endDate) < new Date() ? '⚠️ Overdue' : 'Checked Out'}
                     </span>
                   </button>
                 ))
