@@ -1,0 +1,236 @@
+[
+  {
+    "id": "req-yamini-302",
+    "studentName": "Yamini N.",
+    "rollNumber": "22CSE0302",
+    "department": "CSE",
+    "block": "A",
+    "roomNumber": "302",
+    "destination": "Bengaluru, Karnataka (Home)",
+    "startDate": "2026-07-06T10:00",
+    "endDate": "2026-07-08T18:00",
+    "reason": "Attending sister's wedding ceremony and family get-together.",
+    "emergencyStatus": false,
+    "status": "approved",
+    "createdAt": "2026-07-05T11:47:04.000Z",
+    "updatedAt": "2026-07-05T09:04:14.284Z",
+    "pdfLetterUrl": null,
+    "checkoutTime": null,
+    "checkinTime": null,
+    "studentEmail": "yamini@student.edu",
+    "parentEmail": "parent.yamini@gmail.com",
+    "logs": [
+      {
+        "action": "Submitted",
+        "timestamp": "2026-07-05T11:47:04.000Z",
+        "user": "Yamini N.",
+        "message": "Leave application submitted to Warden queue."
+      },
+      {
+        "action": "Approved",
+        "timestamp": "2026-07-05T09:04:14.283Z",
+        "user": "Warden Block A",
+        "message": "Request approved. Gate pass generated."
+      }
+    ]
+  },
+  {
+    "id": "req-rohan-210",
+    "studentName": "Rohan S.",
+    "rollNumber": "23ECE0114",
+    "department": "ECE",
+    "block": "B",
+    "roomNumber": "210",
+    "destination": "Local Book Market, Sector-4",
+    "startDate": "2026-07-05T13:47",
+    "endDate": "2026-07-05T17:47",
+    "reason": "Purchasing reference textbooks and laboratory manuals for ECE semester course.",
+    "emergencyStatus": false,
+    "status": "approved",
+    "createdAt": "2026-07-05T10:47:04.000Z",
+    "updatedAt": "2026-07-05T12:47:04.000Z",
+    "pdfLetterUrl": null,
+    "checkoutTime": null,
+    "checkinTime": null,
+    "studentEmail": "rohan.s@student.edu",
+    "parentEmail": "guardian.rohan@gmail.com",
+    "logs": [
+      {
+        "action": "Submitted",
+        "timestamp": "2026-07-05T10:47:04.000Z",
+        "user": "Rohan S.",
+        "message": "Leave application submitted to Warden queue."
+      },
+      {
+        "action": "Approved",
+        "timestamp": "2026-07-05T12:47:04.000Z",
+        "user": "Warden Block B",
+        "message": "Request approved. Security pass generated."
+      }
+    ]
+  },
+  {
+    "id": "req-ananya-405",
+    "studentName": "Ananya K.",
+    "rollNumber": "22EEE0405",
+    "department": "EEE",
+    "block": "C",
+    "roomNumber": "405",
+    "destination": "City Specialty Clinic, Cross Road",
+    "startDate": "2026-07-05T11:47",
+    "endDate": "2026-07-05T15:47",
+    "reason": "Urgent dental checkup for acute toothache emergency.",
+    "emergencyStatus": true,
+    "status": "returned",
+    "createdAt": "2026-07-05T11:47:04.000Z",
+    "updatedAt": "2026-07-05T09:04:37.430Z",
+    "pdfLetterUrl": null,
+    "checkoutTime": "2026-07-05T12:47:04.000Z",
+    "checkinTime": "2026-07-05T09:04:37.433Z",
+    "studentEmail": "ananya.k@student.edu",
+    "parentEmail": "parent.ananya@gmail.com",
+    "logs": [
+      {
+        "action": "Submitted",
+        "timestamp": "2026-07-05T11:47:04.000Z",
+        "user": "Ananya K.",
+        "message": "Leave application submitted as Emergency."
+      },
+      {
+        "action": "Approved",
+        "timestamp": "2026-07-05T11:47:04.000Z",
+        "user": "Warden Block C",
+        "message": "Emergency leave auto-approved by warden console."
+      },
+      {
+        "action": "Checked Out",
+        "timestamp": "2026-07-05T12:47:04.000Z",
+        "user": "Security Guard",
+        "message": "Student checked out through Gate 1."
+      },
+      {
+        "action": "Returned",
+        "timestamp": "2026-07-05T09:04:37.433Z",
+        "user": "Gate Officer",
+        "message": "Student checked back into campus premises safely."
+      }
+    ]
+  },
+  {
+    "id": "req-vikram-104",
+    "studentName": "Vikram M.",
+    "rollNumber": "24MCH0054",
+    "department": "MECH",
+    "block": "D",
+    "roomNumber": "104",
+    "destination": "Chennai, Tamil Nadu (Home)",
+    "startDate": "2026-07-03T13:47",
+    "endDate": "2026-07-05T09:47",
+    "reason": "Leaving to attend local traditional harvesting festival.",
+    "emergencyStatus": false,
+    "status": "returned",
+    "createdAt": "2026-07-02T13:47:04.000Z",
+    "updatedAt": "2026-07-05T09:47:04.000Z",
+    "pdfLetterUrl": null,
+    "checkoutTime": "2026-07-03T13:47:04.000Z",
+    "checkinTime": "2026-07-05T09:47:04.000Z",
+    "studentEmail": "vikram@student.edu",
+    "parentEmail": "guardian.vikram@gmail.com",
+    "logs": [
+      {
+        "action": "Submitted",
+        "timestamp": "2026-07-02T13:47:04.000Z",
+        "user": "Vikram M.",
+        "message": "Leave request logged."
+      },
+      {
+        "action": "Approved",
+        "timestamp": "2026-07-02T13:47:04.000Z",
+        "user": "Warden Block D",
+        "message": "Leave approved by Warden."
+      },
+      {
+        "action": "Checked Out",
+        "timestamp": "2026-07-03T13:47:04.000Z",
+        "user": "Security Guard",
+        "message": "Student exited building."
+      },
+      {
+        "action": "Returned",
+        "timestamp": "2026-07-05T09:47:04.000Z",
+        "user": "Security Guard",
+        "message": "Student returned to hostel campus safely."
+      }
+    ]
+  },
+  {
+    "id": "req-sneha-112",
+    "studentName": "Sneha P.",
+    "rollNumber": "22CSE0112",
+    "department": "CSE",
+    "block": "A",
+    "roomNumber": "112",
+    "destination": "Nexus Mall, Outer Ring Road",
+    "startDate": "2026-07-05T14:47",
+    "endDate": "2026-07-05T18:47",
+    "reason": "Weekend recreational shopping and movies with classmates.",
+    "emergencyStatus": false,
+    "status": "rejected",
+    "createdAt": "2026-07-05T11:47:04.000Z",
+    "updatedAt": "2026-07-05T12:47:04.000Z",
+    "pdfLetterUrl": null,
+    "checkoutTime": null,
+    "checkinTime": null,
+    "studentEmail": "sneha.p@student.edu",
+    "parentEmail": "parent.sneha@gmail.com",
+    "logs": [
+      {
+        "action": "Submitted",
+        "timestamp": "2026-07-05T11:47:04.000Z",
+        "user": "Sneha P.",
+        "message": "Leave request logged."
+      },
+      {
+        "action": "Rejected",
+        "timestamp": "2026-07-05T12:47:04.000Z",
+        "user": "Warden Block A",
+        "message": "Recreation outings are suspended during ongoing semester exam week."
+      }
+    ]
+  },
+  {
+    "studentName": "Test Student",
+    "rollNumber": "22CSE1000",
+    "department": "EEE",
+    "block": "C",
+    "roomNumber": "101",
+    "destination": "Home Town",
+    "startDate": "2026-07-02T14:33",
+    "endDate": "2026-07-08T14:33",
+    "reason": "MARRIAGE",
+    "emergencyStatus": true,
+    "studentEmail": "yaminireddynattibayyannagari@gmail.com",
+    "parentEmail": "yaminireddynattibayyannagari@gmail.com",
+    "pdfLetterUrl": "data:application/pdf;filename=generated.pdf;base64,JVBERi0xLjMKJbrfrOAKMyAwIG9iago8PC9UeXBlIC9QYWdlCi9QYXJlbnQgMSAwIFIKL1Jlc291cmNlcyAyIDAgUgovTWVkaWFCb3ggWzAgMCA1OTUuMjc5OTk5OTk5OTk5OTcyNyA4NDEuODg5OTk5OTk5OTk5OTg2NF0KL0NvbnRlbnRzIDQgMCBSCj4+CmVuZG9iago0IDAgb2JqCjw8Ci9MZW5ndGggMjgyMwo+PgpzdHJlYW0KMC41NjcwMDAwMDAwMDAwMDAxIHcKMCBHCkJUCi9GMiAxNiBUZgoxOC4zOTk5OTk5OTk5OTk5OTg2IFRMCjAuMDU5IDAuMDkgMC4xNjUgcmcKMTYyLjY3Nzc5NTI3NTU5MDU5NzIgNzcxLjAyMzg1ODI2NzcxNjQ5MTQgVGQKKEhPU1RFTCBMRUFWRSBSRVFVRVNUIExFVFRFUikgVGoKRVQKMC41OCAwLjY0IDAuNzIgUkcKMS40MTczMjI4MzQ2NDU2Njk0IHcKNTYuNjkyOTEzMzg1ODI2Nzc3NSA3NjIuNTE5OTIxMjU5ODQyNDc2NSBtCjUzOC41ODI2NzcxNjUzNTQ0MjU2IDc2Mi41MTk5MjEyNTk4NDI0NzY1IGwKUwpCVAovRjEgMTAgVGYKMTEuNSBUTAowLjI3OCAwLjMzMyAwLjQxMiByZwo0NTguMzgyNjc3MTY1MzU0NDM3IDczOS44NDI3NTU5MDU1MTE4MDgxIFRkCihEYXRlOiBKdWx5IDUsIDIwMjYpIFRqCkVUCkJUCi9GMiAxMSBUZgoxMi42NDk5OTk5OTk5OTk5OTg2IFRMCjAuMDU5IDAuMDkgMC4xNjUgcmcKNTYuNjkyOTEzMzg1ODI2Nzc3NSA3MTQuMzMwOTQ0ODgxODg5NzYzNiBUZAooVG8sKSBUagpFVApCVAovRjIgMTEgVGYKMTIuNjQ5OTk5OTk5OTk5OTk4NiBUTAowLjA1OSAwLjA5IDAuMTY1IHJnCjU2LjY5MjkxMzM4NTgyNjc3NzUgNzAwLjE1NzcxNjUzNTQzMzExIFRkCihUaGUgV2FyZGVuLCkgVGoKRVQKQlQKL0YyIDExIFRmCjEyLjY0OTk5OTk5OTk5OTk5ODYgVEwKMC4wNTkgMC4wOSAwLjE2NSByZwo1Ni42OTI5MTMzODU4MjY3Nzc1IDY4NS45ODQ0ODgxODg5NzYzNDI4IFRkCihIb3N0ZWwgQmxvY2sgQywpIFRqCkVUCkJUCi9GMiAxMSBUZgoxMi42NDk5OTk5OTk5OTk5OTg2IFRMCjAuMDU5IDAuMDkgMC4xNjUgcmcKNTYuNjkyOTEzMzg1ODI2Nzc3NSA2NzEuODExMjU5ODQyNTE5Njg5MyBUZAooTmF0aW9uYWwgSW5zdGl0dXRlIEhvc3RlbCBDYW1wdXMuKSBUagpFVApCVAovRjIgMTEgVGYKMTIuNjQ5OTk5OTk5OTk5OTk4NiBUTAowLjA1OSAwLjA5IDAuMTY1IHJnCjU2LjY5MjkxMzM4NTgyNjc3NzUgNjM3Ljc5NTUxMTgxMTAyMzUxNjIgVGQKKFN1YmplY3Q6IEFwcGxpY2F0aW9uIGZvciBMZWF2ZSBvZiBBYnNlbmNlIC0gRU1FUkdFTkNZKSBUagpFVApCVAovRjEgMTEgVGYKMTIuNjQ5OTk5OTk5OTk5OTk4NiBUTAowLjIgMC4yNTUgMC4zMzMgcmcKNTYuNjkyOTEzMzg1ODI2Nzc3NSA2MDkuNDQ5MDU1MTE4MTEwMjA5MiBUZAooUmVzcGVjdGVkIFNpci9NYWRhbSwpIFRqClQqICgpIFRqClQqIChJIGFtIHdyaXRpbmcgdG8gZm9ybWFsbHkgcmVxdWVzdCBsZWF2ZSBvZiBhYnNlbmNlIGZyb20gdGhlIGhvc3RlbCBwcmVtaXNlcy4gSSBuZWVkIHRvIHRyYXZlbCB0byBIb21lKSBUagpUKiAoVG93biBmcm9tIDcvMi8yMDI2LCAyOjMzOjAwIFBNIHRvIDcvOC8yMDI2LCAyOjMzOjAwIFBNLikgVGoKVCogKCkgVGoKVCogKFRoZSByZWFzb24gZm9yIHRoaXMgbGVhdmUgcmVxdWVzdCBpczogIk1BUlJJQUdFIi4gVGhpcyBpcyBhbiBlbWVyZ2VuY3kgcmVxdWVzdCByZXF1aXJpbmcpIFRqClQqIChpbW1lZGlhdGUgdHJhdmVsLikgVGoKVCogKCkgVGoKVCogKEkgYXNzdXJlIHlvdSB0aGF0IEkgd2lsbCBhZGhlcmUgdG8gdGhlIHNhZmV0eSBndWlkZWxpbmVzLCByZW1haW4gY29udGFjdGFibGUgdGhyb3VnaG91dCBteSB0cmF2ZWwsKSBUagpUKiAoYW5kIHJldHVybiB0byB0aGUgaG9zdGVsIHJvb20gYnkgdGhlIHNjaGVkdWxlZCBkYXRlIGFuZCB0aW1lLiBJbiBjYXNlIG9mIGFueSBjaGFuZ2VzIG9yIGRlbGF5LCBJKSBUagpUKiAod2lsbCBpbW1lZGlhdGVseSBpbmZvcm0gdGhlIGhvc3RlbCBhdXRob3JpdGllcy4pIFRqCkVUCkJUCi9GMiAxMSBUZgoxMi42NDk5OTk5OTk5OTk5OTg2IFRMCjAuMDU5IDAuMDkgMC4xNjUgcmcKNTYuNjkyOTEzMzg1ODI2Nzc3NSAzODguMzQ2NjkyOTEzMzg1NzY2MSBUZAooU3R1ZGVudCBEZXRhaWxzOikgVGoKRVQKQlQKL0YxIDEwIFRmCjExLjUgVEwKMC4wNTkgMC4wOSAwLjE2NSByZwo1Ni42OTI5MTMzODU4MjY3Nzc1IDM3MS4zMzg4MTg4OTc2Mzc3MzY0IFRkCihOYW1lOiBUZXN0IFN0dWRlbnQpIFRqCkVUCkJUCi9GMSAxMCBUZgoxMS41IFRMCjAuMDU5IDAuMDkgMC4xNjUgcmcKNTYuNjkyOTEzMzg1ODI2Nzc3NSAzNTQuMzMwOTQ0ODgxODg5NzA2NyBUZAooUm9sbCBOdW1iZXI6IDIyQ1NFMTAwMCkgVGoKRVQKQlQKL0YxIDEwIFRmCjExLjUgVEwKMC4wNTkgMC4wOSAwLjE2NSByZwo1Ni42OTI5MTMzODU4MjY3Nzc1IDMzNy4zMjMwNzA4NjYxNDE2NzcgVGQKKERlcGFydG1lbnQ6IEVFRSkgVGoKRVQKQlQKL0YxIDEwIFRmCjExLjUgVEwKMC4wNTkgMC4wOSAwLjE2NSByZwo1Ni42OTI5MTMzODU4MjY3Nzc1IDMyMC4zMTUxOTY4NTAzOTM1OTA1IFRkCihSb29tIE5vOiAxMDEgXChCbG9jayBDXCkpIFRqCkVUCkJUCi9GMiAxMCBUZgoxMS41IFRMCjAuMDU5IDAuMDkgMC4xNjUgcmcKNTYuNjkyOTEzMzg1ODI2Nzc3NSAyMTguMjY3OTUyNzU1OTA1NDEyMiBUZAooX19fX19fX19fX19fX19fX19fX19fX18pIFRqCkVUCkJUCi9GMiAxMCBUZgoxMS41IFRMCjAuMDU5IDAuMDkgMC4xNjUgcmcKNTYuNjkyOTEzMzg1ODI2Nzc3NSAyMDQuMDk0NzI0NDA5NDQ4NzU4NyBUZAooU3R1ZGVudCBTaWduYXR1cmUpIFRqCkVUCkJUCi9GMiAxMCBUZgoxMS41IFRMCjAuMDU5IDAuMDkgMC4xNjUgcmcKMzk2Ljg1MDM5MzcwMDc4NzQzNTYgMjE4LjI2Nzk1Mjc1NTkwNTQxMjIgVGQKKF9fX19fX19fX19fX19fX19fX19fX19fKSBUagpFVApCVAovRjIgMTAgVGYKMTEuNSBUTAowLjA1OSAwLjA5IDAuMTY1IHJnCjM5Ni44NTAzOTM3MDA3ODc0MzU2IDIwNC4wOTQ3MjQ0MDk0NDg3NTg3IFRkCihXYXJkZW4gU2lnbmF0dXJlIC8gU3RhbXApIFRqCkVUCmVuZHN0cmVhbQplbmRvYmoKMSAwIG9iago8PC9UeXBlIC9QYWdlcwovS2lkcyBbMyAwIFIgXQovQ291bnQgMQo+PgplbmRvYmoKNSAwIG9iago8PAovVHlwZSAvRm9udAovQmFzZUZvbnQgL0hlbHZldGljYQovU3VidHlwZSAvVHlwZTEKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL0ZpcnN0Q2hhciAzMgovTGFzdENoYXIgMjU1Cj4+CmVuZG9iago2IDAgb2JqCjw8Ci9UeXBlIC9Gb250Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQKL1N1YnR5cGUgL1R5cGUxCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9GaXJzdENoYXIgMzIKL0xhc3RDaGFyIDI1NQo+PgplbmRvYmoKNyAwIG9iago8PAovVHlwZSAvRm9udAovQmFzZUZvbnQgL0hlbHZldGljYS1PYmxpcXVlCi9TdWJ0eXBlIC9UeXBlMQovRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZwovRmlyc3RDaGFyIDMyCi9MYXN0Q2hhciAyNTUKPj4KZW5kb2JqCjggMCBvYmoKPDwKL1R5cGUgL0ZvbnQKL0Jhc2VGb250IC9IZWx2ZXRpY2EtQm9sZE9ibGlxdWUKL1N1YnR5cGUgL1R5cGUxCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9GaXJzdENoYXIgMzIKL0xhc3RDaGFyIDI1NQo+PgplbmRvYmoKOSAwIG9iago8PAovVHlwZSAvRm9udAovQmFzZUZvbnQgL0NvdXJpZXIKL1N1YnR5cGUgL1R5cGUxCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9GaXJzdENoYXIgMzIKL0xhc3RDaGFyIDI1NQo+PgplbmRvYmoKMTAgMCBvYmoKPDwKL1R5cGUgL0ZvbnQKL0Jhc2VGb250IC9Db3VyaWVyLUJvbGQKL1N1YnR5cGUgL1R5cGUxCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9GaXJzdENoYXIgMzIKL0xhc3RDaGFyIDI1NQo+PgplbmRvYmoKMTEgMCBvYmoKPDwKL1R5cGUgL0ZvbnQKL0Jhc2VGb250IC9Db3VyaWVyLU9ibGlxdWUKL1N1YnR5cGUgL1R5cGUxCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9GaXJzdENoYXIgMzIKL0xhc3RDaGFyIDI1NQo+PgplbmRvYmoKMTIgMCBvYmoKPDwKL1R5cGUgL0ZvbnQKL0Jhc2VGb250IC9Db3VyaWVyLUJvbGRPYmxpcXVlCi9TdWJ0eXBlIC9UeXBlMQovRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZwovRmlyc3RDaGFyIDMyCi9MYXN0Q2hhciAyNTUKPj4KZW5kb2JqCjEzIDAgb2JqCjw8Ci9UeXBlIC9Gb250Ci9CYXNlRm9udCAvVGltZXMtUm9tYW4KL1N1YnR5cGUgL1R5cGUxCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9GaXJzdENoYXIgMzIKL0xhc3RDaGFyIDI1NQo+PgplbmRvYmoKMTQgMCBvYmoKPDwKL1R5cGUgL0ZvbnQKL0Jhc2VGb250IC9UaW1lcy1Cb2xkCi9TdWJ0eXBlIC9UeXBlMQovRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZwovRmlyc3RDaGFyIDMyCi9MYXN0Q2hhciAyNTUKPj4KZW5kb2JqCjE1IDAgb2JqCjw8Ci9UeXBlIC9Gb250Ci9CYXNlRm9udCAvVGltZXMtSXRhbGljCi9TdWJ0eXBlIC9UeXBlMQovRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZwovRmlyc3RDaGFyIDMyCi9MYXN0Q2hhciAyNTUKPj4KZW5kb2JqCjE2IDAgb2JqCjw8Ci9UeXBlIC9Gb250Ci9CYXNlRm9udCAvVGltZXMtQm9sZEl0YWxpYwovU3VidHlwZSAvVHlwZTEKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL0ZpcnN0Q2hhciAzMgovTGFzdENoYXIgMjU1Cj4+CmVuZG9iagoxNyAwIG9iago8PAovVHlwZSAvRm9udAovQmFzZUZvbnQgL1phcGZEaW5nYmF0cwovU3VidHlwZSAvVHlwZTEKL0ZpcnN0Q2hhciAzMgovTGFzdENoYXIgMjU1Cj4+CmVuZG9iagoxOCAwIG9iago8PAovVHlwZSAvRm9udAovQmFzZUZvbnQgL1N5bWJvbAovU3VidHlwZSAvVHlwZTEKL0ZpcnN0Q2hhciAzMgovTGFzdENoYXIgMjU1Cj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9Qcm9jU2V0IFsvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJXQovRm9udCA8PAovRjEgNSAwIFIKL0YyIDYgMCBSCi9GMyA3IDAgUgovRjQgOCAwIFIKL0Y1IDkgMCBSCi9GNiAxMCAwIFIKL0Y3IDExIDAgUgovRjggMTIgMCBSCi9GOSAxMyAwIFIKL0YxMCAxNCAwIFIKL0YxMSAxNSAwIFIKL0YxMiAxNiAwIFIKL0YxMyAxNyAwIFIKL0YxNCAxOCAwIFIKPj4KL1hPYmplY3QgPDwKPj4KPj4KZW5kb2JqCjE5IDAgb2JqCjw8Ci9Qcm9kdWNlciAoanNQREYgNC4yLjEpCi9DcmVhdGlvbkRhdGUgKEQ6MjAyNjA3MDUxNDM0MDMrMDUnMzAnKQo+PgplbmRvYmoKMjAgMCBvYmoKPDwKL1R5cGUgL0NhdGFsb2cKL1BhZ2VzIDEgMCBSCi9PcGVuQWN0aW9uIFszIDAgUiAvRml0SCBudWxsXQovUGFnZUxheW91dCAvT25lQ29sdW1uCj4+CmVuZG9iagp4cmVmCjAgMjEKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAzMDI3IDAwMDAwIG4gCjAwMDAwMDQ4NDQgMDAwMDAgbiAKMDAwMDAwMDAxNSAwMDAwMCBuIAowMDAwMDAwMTUyIDAwMDAwIG4gCjAwMDAwMDMwODQgMDAwMDAgbiAKMDAwMDAwMzIwOSAwMDAwMCBuIAowMDAwMDAzMzM5IDAwMDAwIG4gCjAwMDAwMDM0NzIgMDAwMDAgbiAKMDAwMDAwMzYwOSAwMDAwMCBuIAowMDAwMDAzNzMyIDAwMDAwIG4gCjAwMDAwMDM4NjEgMDAwMDAgbiAKMDAwMDAwMzk5MyAwMDAwMCBuIAowMDAwMDA0MTI5IDAwMDAwIG4gCjAwMDAwMDQyNTcgMDAwMDAgbiAKMDAwMDAwNDM4NCAwMDAwMCBuIAowMDAwMDA0NTEzIDAwMDAwIG4gCjAwMDAwMDQ2NDYgMDAwMDAgbiAKMDAwMDAwNDc0OCAwMDAwMCBuIAowMDAwMDA1MDkyIDAwMDAwIG4gCjAwMDAwMDUxNzggMDAwMDAgbiAKdHJhaWxlcgo8PAovU2l6ZSAyMQovUm9vdCAyMCAwIFIKL0luZm8gMTkgMCBSCi9JRCBbIDwyRjRFQkJBOUQ5QUM4Q0YwMzMyNzQzMjczMjM4RkI3QT4gPDJGNEVCQkE5RDlBQzhDRjAzMzI3NDMyNzMyMzhGQjdBPiBdCj4+CnN0YXJ0eHJlZgo1MjgyCiUlRU9G",
+    "id": "req-243484-axxg",
+    "status": "approved",
+    "createdAt": "2026-07-05T09:04:03.485Z",
+    "updatedAt": "2026-07-05T09:04:20.360Z",
+    "checkoutTime": null,
+    "checkinTime": null,
+    "logs": [
+      {
+        "action": "Submitted",
+        "timestamp": "2026-07-05T09:04:03.485Z",
+        "user": "Test Student",
+        "message": "Leave application submitted digitally for review."
+      },
+      {
+        "action": "Approved",
+        "timestamp": "2026-07-05T09:04:20.354Z",
+        "user": "Warden Block C",
+        "message": "Request approved. Gate pass generated."
+      }
+    ]
+  }
+]
